@@ -1,0 +1,30 @@
+name: appui
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  #Font Package
+  google_fonts: ^4.0.3
+  
+  #Page Indicator
+  anim_indicator: ^0.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/1.3x/dog.png
